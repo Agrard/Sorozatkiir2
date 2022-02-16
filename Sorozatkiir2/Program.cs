@@ -10,6 +10,11 @@ namespace Sorozatkiir2
     {
         static void Main(string[] args)
         {
+            //2. feladat
+            for (int i = 1; i < 11; i++)
+            {
+                Console.Write(i + ", ");
+            }
         }
     }
 }

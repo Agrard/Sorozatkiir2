@@ -43,6 +43,37 @@ namespace Sorozatkiir2
                     }
                 }
             }
+
+            //4. feladat
+
+            bool  talalat = false;
+            while (!talalat)
+            {
+                Console.Write("\nKérek egy kezdő számot: ");
+                int kezdes = Convert.ToInt32(Console.ReadLine());
+
+                Console.Write("\nKérek egy Végszámot: ");
+                int veg = Convert.ToInt32(Console.ReadLine());
+
+                if (talalat = kezdes < veg || veg > kezdes)
+                {
+
+                    for (int i = kezdes; i <= veg; i++)
+                    {
+                        Console.Write(i + ", ");
+                    }
+                    
+                }
+
+                else
+                {
+                    Console.WriteLine("Rossz megadás!");
+
+                }
+
+            }
+
+            Console.ReadKey();
         }
     }
 }
